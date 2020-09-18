@@ -1,0 +1,19 @@
+#ifndef HALL
+#define HALL
+
+class hall
+{
+	float width;
+	float length;
+	float area;
+	int   hall_cost;
+
+    public:
+     hall();
+     friend istream& operator >>(istream& input,hall& h);
+     friend ostream& operator <<(ostream& output,hall& h);
+     float operator +(hall& h);
+     float get_area();
+
+}
+#endif;//HALL
