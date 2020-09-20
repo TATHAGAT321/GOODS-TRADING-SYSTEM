@@ -8,7 +8,3 @@ but I will integrate UI features in near future.
 Using seperate header(.h) and Implementationfile(.cpp) for each class of
 objects based on UML class diagram used during the project design and structuring.   
 
-This project can run on gcc compiler by using the following commnad line on terminal 
-
-g++ *.cpp -o outputfile
-./outputfile
